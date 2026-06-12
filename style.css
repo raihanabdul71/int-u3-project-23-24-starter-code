@@ -20,7 +20,7 @@ body {
 /* Style the body with a background color or image if desired */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #e58585;
     text-align: center;
     padding: 20px;
 }
@@ -34,24 +34,28 @@ body {
 
 /* Style the story opening container */
 .story-opening {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
+    /* background-color: #fff; */
+    /* border: 1px solid #ccc; */
+    padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
 /* Style the story image */
 .story-opening img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 /* Style the story opening message */
-.story-opening h1 {
-    font-size: 20px;
-    margin-bottom: 20px;
+
+.sub-title p
+.option-one-title p, 
+.option-two-title p,
+.option-one-end-title p,
+.option-two-end-title p {
+    font-size: 15px;
 }
 
 /* Style the buttons container */
@@ -64,7 +68,7 @@ button {
     font-size: 16px;
     padding: 10px 20px;
     margin: 10px;
-    background-color: #007bff;
+    background-color: #223057;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -73,7 +77,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #9A1316;
 }
 
 /* Style the screens for option one and option two */
@@ -81,11 +85,11 @@ button:hover {
 .option-two-screen,
 .option-one-end,
 .option-two-end {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    /* background-color: #fff; */
+    /* border: 1px solid #ccc; */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
     margin-bottom: 10px;
 }
 
@@ -94,16 +98,16 @@ button:hover {
 .option-two-screen img,
 .option-one-end img,
 .option-two-end img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 /* Style the text in the screens */
-.option-one-screen h1,
+/* .option-one-screen h1,
 .option-two-screen h1,
 .option-one-end h1,
 .option-two-end h1 {
     font-size: 20px;
     margin-bottom: 20px;
-}
+} */
