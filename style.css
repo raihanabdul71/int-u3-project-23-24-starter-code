@@ -1,13 +1,17 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
-/* 
+ 
+.option-one-title,
 .option-one-screen, 
+.option-two-title,
 .option-two-screen, 
+.option-one-end-title,
 .option-one-end, 
+.option-two-end-title,
 .option-two-end  {
-   display:none;
+   display: none;
 }
-*/
+
 
 
 /* Feel free to change any of the styling below!*/
@@ -46,6 +50,7 @@ body {
     max-width: 40%;
     height: auto;
     margin-bottom: 2px;
+    border-radius: 8px;
 }
 
 /* Style the story opening message */
@@ -64,16 +69,18 @@ body {
 }
 
 /* Style the option buttons */
-button {
+button
+ {
     font-size: 16px;
     padding: 10px 20px;
     margin: 10px;
     background-color: #223057;
     color: #fff;
-    border: none;
+    border: none ridge;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: "Bitcount Single", systen-ui;
 }
 
 button:hover {
@@ -101,6 +108,7 @@ button:hover {
     max-width: 40%;
     height: auto;
     margin-bottom: 2px;
+    border-radius: 8px;
 }
 
 /* Style the text in the screens */
