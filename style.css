@@ -50,7 +50,7 @@ body {
     max-width: 40%;
     height: auto;
     margin-bottom: 2px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 /* Style the story opening message */
@@ -108,7 +108,7 @@ button:hover {
     max-width: 40%;
     height: auto;
     margin-bottom: 2px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 /* Style the text in the screens */
