@@ -23,6 +23,8 @@ let thirdBtns = document.querySelector('.option-two-end-btn');
 // Screen 4
 let optionTwoEndTitle = document.querySelector('.option-two-end-title');
 let optionTwoEnd = document.querySelector('.option-two-end');
+let tryAgain = document.querySelector('.option-three');
+let startOver = document.querySelector('.option-four');
 
 
 
@@ -32,6 +34,22 @@ let optionTwoEnd = document.querySelector('.option-two-end');
 
 // When you're ready to make event handlers, uncomment the code below. 
 //  - Then fill in the blanks with the correct variables.
+
+tryAgain.addEventListener('click', function(){
+    opening.style.display = 'block';
+    subTitle.style.display = 'block';
+    firstButtons.style.display = 'block';
+    optionOneEndTitle.style.display = 'none';
+    optionOneEnd.style.display = 'none';
+});
+
+startOver.addEventListener('click', function(){
+    opening.style.display = 'block';
+    subTitle.style.display = 'block';
+    firstButtons.style.display = 'block';
+    optionTwoEndTitle.style.display = 'none';
+    optionTwoEnd.style.display = 'none';
+});
 
 
 optionOneBtn.addEventListener ('click', function(){
