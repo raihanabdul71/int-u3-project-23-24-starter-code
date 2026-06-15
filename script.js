@@ -96,3 +96,28 @@ thirdBtns.addEventListener('click', function(){
     firstButtons.style.display = 'none';
 
 });
+
+optionOneBtn.onmouseover = function() {
+    optionOneBtn.style.backgroundColor = '#9A1316';
+    optionOneBtn.style.color = 'white';
+    optionOneBtn.innerHTML = 'SPIDEY TIME !';
+};
+
+optionOneBtn.onmouseout = function() {
+    optionOneBtn.style.backgroundColor = '';
+    optionOneBtn.style.color = '';
+    optionOneBtn.innerHTML = 'heck yeah i do'
+};
+
+optionTwoBtn.onmouseover = function() {
+    optionTwoBtn.style.backgroundColor = '#9A1316';
+    optionTwoBtn.style.color = 'white';
+    optionTwoBtn.innerHTML = 'I DONT MIND A LITTLE HOLD UP !';
+};
+
+optionTwoBtn.onmouseout = function() {
+    optionTwoBtn.style.backgroundColor = '';
+    optionTwoBtn.style.color = '';
+    optionTwoBtn.innerHTML = 'um... no, ill wait for the cops'
+};
+
